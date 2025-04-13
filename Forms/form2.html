@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <h1>Matrimony Form</h1>
+    </center>
+
+    <center>
+        <form action="" autocomplete="on">
+            <fieldset>
+                <legend>Enter the Details:</legend>
+                <table bgcolor="aqua">
+                   <tr>
+                    <td>
+                        <label for="fn">First Name</label>
+                    </td>
+                    <td>
+                        <input type="text" id="fn" placeholder="Enter the first name" autofocus value="Swathi" readonly>
+                    </td>
+                   </tr>
+                   <tr>
+                    <td>
+                        <label for="ln">Last Name</label>
+                    </td>
+                    <td>
+                        <input type="text" id="ln" placeholder="Enter the last name">
+                    </td>
+                   </tr>
+                   <tr>
+                    <td>
+                        <label for="pass">Password</label>
+                    </td>
+                    <td>
+                        <input type="password" id="pass" placeholder="Enter the password" required autofocus="on" >
+                    </td>
+                   </tr>
+                   <tr>
+                    <td>
+                        <label for="mail">Email</label>
+                    </td>
+                    <td>
+                        <input type="email" id="mail" placeholder="Enter the email">
+                    </td>
+                   </tr>
+                   <tr>
+                    <td>
+                        <label for="birth">DOB</label>
+                    </td>
+                    <td>
+                        <input type="date" id="birth" placeholder="Enter the DOB">
+                    </td>
+                   </tr>
+                   <tr>
+                    <td>
+                        <label for="">girlfriends</label>
+                    </td>
+                    <td>
+                        <select name="" id="">
+                            <option value="">Ranu mondal</option>
+                            <option value="" selected>priyanka</option>
+                            <option value="">shwetha</option>
+                            <option value="">shobha</option>
+                            <option value="" disabled>padmini</option>
+                        </select>
+                    </td>
+                   </tr>
+                   <tr>
+                      <td>
+                        <label for="add">Address</label>
+                      </td>
+                      <td>
+                        <textarea name="" id="add" placeholder="Enter the address" required></textarea>
+                      </td>
+                   </tr>
+                   <tr>
+                    <td>
+                        <label for="">Fav Food</label>
+                    </td>
+                    <td>
+                        <input type="image" src="img1.avif" height="50px" width="50px" style="border-radius:50%;">
+                    </td>
+                   </tr>
+                   <tr>
+                    <td>
+                        <label for="fruit">Fruits</label>
+                    </td>
+                    <td>
+                        <input list="fruits" id="fruit">
+                        <datalist id="fruits">
+                            <option value="Apple">Apple</option>
+                            <option value="Mango">Mango</option>
+                            <option value="Banana">Banana</option>
+                            <option value="Grapes">Grapes</option>
+                            <option value="Cow">Cow</option>
+                        </datalist>
+                    </td>
+                   </tr>
+                   <tr>
+                    <td>
+                        <label for="gender">Gender</label>
+                    </td>
+                    <td>
+                        <input type="radio" id="gender" value="male" name="gender">Male
+                        <input type="radio" id="gender" value="female" name="gender">Female
+                        <input type="radio" id="gender" value="male" name="gender">Others
+                    </td>
+                   </tr>
+                   <tr>
+                    <td>
+                        <label for="tech">Technologies</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="tech" id="tech" value="HTML">HTML
+                        <input type="checkbox" name="tech1" id="tech" value="CSS">CSS
+                        <input type="checkbox" name="tech2" id="tech" value="JS">JS
+                        <input type="checkbox" name="tech3" id="tech" value="React.js">React.js
+                    </td>
+                   </tr>
+                   <tr>
+                    <td>
+                        <label for="num">Enter the number</label>
+                    </td>
+                    <td>
+                        <input type="tel" id="num" placeholder="Enter the number" required>
+                    </td>
+                   </tr>
+                   <tr>
+                    <tr>
+                        <td>
+                            <label for="file">Choose the file</label>
+                        </td>
+                        <td>
+                            <input type="file" id="chandu" required>
+                        </td>
+                    </tr>
+                    <td>
+                        <button>Submit</button>
+                    </td>
+                    <td>
+                        <button>Cancel</button>
+                    </td>
+                   </tr>
+                </table>
+            </fieldset>
+        </form>
+    </center>
+</body>
+</html>
